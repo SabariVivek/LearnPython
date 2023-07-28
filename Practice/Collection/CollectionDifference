@@ -1,0 +1,17 @@
+
+    # List                                  # Tuple
+
+        * [v1, v2, v3]                          * (v1, v2, v3)
+        * Indexing                              * Indexing
+        * Same Order                            * Same Order
+        * Mutable                               * Immutable
+        * Duplicates Accepted                   * Duplicates Accepted
+
+
+    # Set                                   # Dictionary
+
+        * {v1, v2, v3}                          * {k1:v1, k2:v2, k3:v3}
+        * No Indexing                           * No Indexing
+        * Random Order                          * Same Order
+        * Mutable                               * Mutable
+        * Duplicates Ignored                    * Keys are unique value can be duplicated

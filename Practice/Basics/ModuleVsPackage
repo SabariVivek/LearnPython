@@ -1,0 +1,36 @@
+# What is Module in Python?
+    * The module is a simple Python file that contains collections of functions and global variables and with having a .py extension file.
+    * It is an executable file and to organize all the modules we have the concept called Package in Python.
+
+# Examples of modules:
+    * Datetime
+    * Regex
+    * Random etc.
+
+Example: Save the code in a file called demo_module.py
+
+<------------------------------------->
+def myModule(name):
+    print("This is My Module : "+ name)
+<------------------------------------->
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# What is Package in Python?
+    * The package is a simple directory having collections of modules.
+    * This directory contains Python modules and also having __init__.py file by which the interpreter interprets it as a Package.
+    * The package is simply a namespace.
+    * The package also contains sub-packages inside it.
+
+# Examples of Packages:
+    * Numpy
+    * Pandas
+
+# Example:
+    * Student(Package)
+        # __init__.py (Constructor)
+        # details.py (Module)
+        # marks.py (Module)
+        # collegeDetails.py (Module)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
